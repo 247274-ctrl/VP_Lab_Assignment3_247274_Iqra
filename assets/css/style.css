@@ -407,7 +407,28 @@ body {
   padding: 0 !important;
   overflow: hidden;
 }
-.view-all-btn:hover {
-  background: #ffb400;
-  transition: 0.3s;
+.view-all-btn {
+  width: 226.0625px;
+  height: 54.5px;
+
+  padding-top: 16px;
+  padding-right: 51.06px;
+  padding-bottom: 15.5px;
+  padding-left: 20px;
+
+  border-radius: 42px;
+  background: #FFC247;
+
+  border: none;
+  opacity: 1;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
 }
