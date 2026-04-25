@@ -116,45 +116,26 @@ body {
 .review-card {
     background: #fff;
 }
-.featured-full {
-    padding: 40px 60px;
+.featured-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
 }
 
 .featured-text {
     color: #1a3cff;
     font-weight: 600;
-    font-size: 16px;
+    white-space: nowrap;
 }
 
 .featured-logos {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    flex: 1; /* ye important hai */
 }
 
 .featured-logos img {
-    height: 45px;
-    object-fit: contain;
-}
-.featured-full {
-    padding: 40px 60px;
-}
-
-.featured-text {
-    color: #1a3cff;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.featured-logos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.featured-logos img {
-    height: 45px;
-    object-fit: contain;
+    height: 100px;   /* size bara */
+    margin: 0 15px; /* spacing */
 }
