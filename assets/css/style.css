@@ -407,3 +407,7 @@ body {
   padding: 0 !important;
   overflow: hidden;
 }
+.view-all-btn:hover {
+  background: #ffb400;
+  transition: 0.3s;
+}
