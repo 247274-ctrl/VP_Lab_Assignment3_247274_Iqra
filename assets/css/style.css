@@ -339,3 +339,28 @@ body {
 .insight-card {
     text-align: center;
 }
+.badge-top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 112.40625px;
+    height: 44px;
+
+    padding-top: 12px;
+    padding-right: 20.41px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+
+    border-radius: 48px;
+
+    background: white;
+    color: black;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
