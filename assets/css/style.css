@@ -217,8 +217,8 @@ body {
 }
 .story-box {
     background: #f5b400;
-    width: 460px;
-    height: 296px;
+     width: 460px !important;
+    height: 296px !important;
 
     padding: 30px;
     border-radius: 16px;
@@ -230,8 +230,8 @@ body {
 
 .help-box {
     background: #fff;
-    width: 308px;
-    height: 296px;
+      width: 308px !important;
+    height: 296px !important;
 
     padding: 30px;
     border-radius: 16px;
