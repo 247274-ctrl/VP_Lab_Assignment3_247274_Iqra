@@ -116,3 +116,45 @@ body {
 .review-card {
     background: #fff;
 }
+.featured-full {
+    padding: 40px 60px;
+}
+
+.featured-text {
+    color: #1a3cff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.featured-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.featured-logos img {
+    height: 45px;
+    object-fit: contain;
+}
+.featured-full {
+    padding: 40px 60px;
+}
+
+.featured-text {
+    color: #1a3cff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.featured-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.featured-logos img {
+    height: 45px;
+    object-fit: contain;
+}
