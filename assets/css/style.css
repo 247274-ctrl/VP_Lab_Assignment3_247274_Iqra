@@ -344,33 +344,26 @@ body {
     display: inline-block;
 }
 
-.badge-top {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.custom-tag {
+    width: 112.40625px;
+    height: 44px;
+  background: #fff;
+  color: #000;
 
-    width: 0px;
-    height: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    padding: 12px 20.41px 12px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
 
-    border-radius: 48px;
-
-    background: #fff;
-    color: #000;
-
-    font-size: 50px;
-    font-weight: 500;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    opacity: 1;
-    z-index: 10;
-    box-sizing: border-box;
+  margin-top: 10px;
 }
-.img-wrapper {
-    position: relative;
-    display: inline-block;
+/* IMAGE FIX */
+.image-wrapper img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
 }
