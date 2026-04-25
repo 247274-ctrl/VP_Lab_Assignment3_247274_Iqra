@@ -171,15 +171,16 @@ body {
 }
 .freedom-card {
     background: #fff;
-    padding: 70px 50px;   /* ↑ height increase */
+
+    width: 840px;
+    height: 1034.5px;
+
+    margin: 0 auto; /* center */
+    padding: 60px 50px;
+
     border-radius: 20px;
-
-    /* IMPORTANT: vertical feel */
-    min-height: 750px;
-
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-}
-.freedom-card {
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
