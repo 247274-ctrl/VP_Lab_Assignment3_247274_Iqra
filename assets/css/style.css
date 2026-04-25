@@ -248,3 +248,41 @@ body {
     display: inline-block;
     border: none;
 }
+.certo-cta-section {
+    background: linear-gradient(135deg, #4b0082, #8a2be2);
+    position: relative;
+}
+
+/* blur overlay effect */
+.certo-box {
+    padding: 80px 20px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+/* main text (your width idea applied in responsive way) */
+.certo-box .main-text {
+    font-size: 32px;
+    font-weight: 700;
+    max-width: 559px;
+    margin: 0 auto;
+}
+
+/* sub text */
+.certo-box .sub-text {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* buttons fine tuning */
+.certo-box .btn-warning {
+    background: #ffd700;
+    border: none;
+    color: black;
+}
+
+.certo-box .btn-outline-light {
+    border-radius: 42px;
+}
