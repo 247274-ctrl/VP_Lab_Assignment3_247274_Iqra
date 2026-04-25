@@ -185,3 +185,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.freedom-wrapper {
+    background: #dff3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
