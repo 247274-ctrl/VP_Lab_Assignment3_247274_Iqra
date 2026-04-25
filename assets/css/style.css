@@ -336,3 +336,6 @@ body {
 .insights-section {
     background: #F3F8FF;
 }
+.insight-card {
+    text-align: center;
+}
