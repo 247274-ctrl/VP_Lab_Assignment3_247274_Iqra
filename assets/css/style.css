@@ -249,16 +249,16 @@ body {
     border: none;
 }
 .certo-cta-section {
-    background: linear-gradient(135deg, #4b0082, #8a2be2);
-    position: relative;
+    background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
 }
 
 /* blur overlay effect */
 .certo-box {
-    padding: 80px 20px;
-    border-radius: 20px;
-    background: rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
+    background: transparent;   /* important */
+    backdrop-filter: none;     /* remove blur glass effect */
+    padding: 0;                /* remove extra spacing */
+    border-radius: 0;          /* remove rounded card look */
+    box-shadow: none;          /* remove shadow if any */
 }
 
 /* main text (your width idea applied in responsive way) */
