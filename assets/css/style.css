@@ -1,0 +1,106 @@
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+/* NAV BUTTON */
+.btn-main {
+    background: #f5b400;
+    border-radius: 25px;
+    padding: 8px 18px;
+    color: black;
+}
+
+/* HERO */
+.hero-section {
+    padding: 80px 0;
+    background: #f6f8fc;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-text {
+    margin: 20px 0;
+    color: #666;
+}
+
+/* HERO IMAGES */
+.hero-boy {
+    max-width: 300px;
+}
+
+.hero-phone {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    max-width: 200px;
+}
+
+/* BUTTONS */
+.btn-yellow {
+    background: #f5b400;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.btn-outline-dark {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* SECTION TITLE */
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* LOGOS */
+.logo {
+    height: 30px;
+    opacity: 0.7;
+}
+
+/* FEATURE BOX */
+.feature-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* FOOTER */
+.footer {
+    background: #0b0d2c;
+    padding: 40px 0;
+}
+.hero-img-wrapper {
+    border: 5px solid #5a6bff;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.hero-boy {
+    max-width: 280px;
+}
+
+.hero-phone {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 160px;
+}
+.review-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.stars {
+    color: gold;
+}
