@@ -304,6 +304,9 @@ body {
   text-align: center;
   overflow: hidden;
   padding: 0px;
+
+  gap: 8px;   /* 🔥 reduce spacing */
+
 }
 
 /* ===== IMAGE SIZE ===== */
@@ -329,7 +332,7 @@ body {
 /* ===== TITLE ===== */
 .insight-card h5 {
   width: 221px;
-  height: 120px;
+  height: 60px;
   font-size: 18px;
   font-weight: 700;
   margin-top: 15px;
