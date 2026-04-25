@@ -108,3 +108,8 @@ body {
     background-color: #f5b400; /* same yellow */
     padding: 60px 0;
 }
+.reviews-section h4,
+.reviews-section p,
+.reviews-section strong {
+    color: #000;
+}
