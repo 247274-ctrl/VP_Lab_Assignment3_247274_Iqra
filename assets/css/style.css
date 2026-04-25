@@ -113,3 +113,6 @@ body {
 .reviews-section strong {
     color: #000;
 }
+.review-card {
+    background: #fff;
+}
