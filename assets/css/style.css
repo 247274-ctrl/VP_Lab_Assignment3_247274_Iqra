@@ -201,3 +201,6 @@ body {
 .freedom-card h2 {
     margin-bottom: 20px;
 }
+.freedom-card .row {
+    margin-top: 10px;
+}
