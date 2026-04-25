@@ -291,13 +291,18 @@ body {
   width: 320px;
   height: 534px;
   border-radius: 48px;
-  padding: 0;
   background: #fff;
+
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
 
+  justify-content: center;   /* 🔥 vertical center */
+  align-items: center;       /* 🔥 horizontal center */
+
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+}
 /* ===== IMAGE SIZE ===== */
 .insight-card img {
   width: 100%;
@@ -378,7 +383,8 @@ body {
   font-weight: 700; /* bold */
   font-size: 18px;
   margin-top: 20px;
-  padding: 0 25px;  /* 🔥 side spacing (touch na kare) */
+  padding: 0 25px;  
+  text-align: center;/* 🔥 side spacing (touch na kare) */
 }
 
 /* DESCRIPTION */
@@ -388,4 +394,5 @@ body {
   margin-top: 10px;
   padding: 0 25px; /* 🔥 same spacing */
   line-height: 1.6;
+  text-align: center;
 }
