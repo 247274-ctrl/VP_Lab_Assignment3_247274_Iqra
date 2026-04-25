@@ -180,7 +180,9 @@ body {
 
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-
+  /* IMPORTANT FIX */
+    height: auto;
+    min-height: 700px;  /* controlled height */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,6 +205,11 @@ body {
     margin-bottom: 20px;
 }
 .freedom-card .row {
+    margin-top: 10px;
+}
+
+
+.freedom-card .btn {
     margin-top: 10px;
 }
 .section-heading {
