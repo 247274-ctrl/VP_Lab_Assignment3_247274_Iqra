@@ -374,3 +374,18 @@ body {
   object-fit: cover;
   border-radius: 20px;
 }
+.insight-card h5 {
+  font-weight: 700; /* bold */
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 0 25px;  /* 🔥 side spacing (touch na kare) */
+}
+
+/* DESCRIPTION */
+.insight-card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  padding: 0 25px; /* 🔥 same spacing */
+  line-height: 1.6;
+}
