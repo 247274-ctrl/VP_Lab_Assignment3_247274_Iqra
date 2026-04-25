@@ -185,6 +185,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .freedom-wrapper {
     background: #dff3ff;
     display: flex;
