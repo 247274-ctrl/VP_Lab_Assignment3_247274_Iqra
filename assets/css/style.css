@@ -215,40 +215,30 @@ body {
 .section-heading {
     margin-bottom: 25px;
 }
-.story-box {
-    background: #f5b400;
-     width: 460px !important;
-    height: 296px !important;
-
-    padding: 30px;
+.story-yellow-box {
+    background: #f5b400;   /* yellow */
+    padding: 40px;
     border-radius: 16px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    
+      width: 460px !important;
+    height: 296px !important;
 }
 
-.help-box {
+.help-white-box {
     background: #fff;
-      width: 308px !important;
-    height: 296px !important;
-
-    padding: 30px;
+    padding: 40px;
     border-radius: 16px;
-
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+      width: 408px !important;
+    height: 296px !important;
 }
 
-/* PURPLE BUTTON */
+/* PURPLE BUTTON WITH ARROW */
 .btn-purple {
     background: #6c5ce7;
     color: #fff;
-    padding: 10px 18px;
+    padding: 10px 20px;
     border-radius: 8px;
     display: inline-block;
-    text-decoration: none;
+    border: none;
 }
