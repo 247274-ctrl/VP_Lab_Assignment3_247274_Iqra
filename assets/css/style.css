@@ -346,10 +346,10 @@ body {
 }
 .img-wrapper {
   position: relative;
-  width: 100%;
+  margin: 0;
   padding: 0;
+  line-height: 0; /* 🔥 removes invisible gap */
 }
-
 /* TAG ON IMAGE */
 .custom-tag {
   position: absolute;   /* 🔥 MOST IMPORTANT */
@@ -378,19 +378,14 @@ body {
 .img-wrapper img {
   width: 100%;
   height: 180px;
-  padding: 0%;
   object-fit: cover;
-  display: block;
+
+  display: block;   /* 🔥 removes inline gap issue */
+  margin: 0;
+  padding: 0;
 
   border-top-left-radius: 48px;
   border-top-right-radius: 48px;
-}
-.insight-card h5 {
-  font-weight: 700; /* bold */
-  font-size: 18px;
-  margin-top: 20px;
-  padding: 0 25px;  
-  text-align: center;/* 🔥 side spacing (touch na kare) */
 }
 
 /* DESCRIPTION */
@@ -401,4 +396,8 @@ body {
   padding: 0 25px; /* 🔥 same spacing */
   line-height: 1.6;
   text-align: center;
+}
+.insight-card {
+  padding: 0 !important;
+  overflow: hidden;
 }
