@@ -192,3 +192,9 @@ body {
     align-items: center;
     padding: 60px 0;
 }
+@media (max-width: 900px) {
+    .freedom-card {
+        width: 95%;
+        height: auto;
+    }
+}
