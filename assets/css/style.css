@@ -349,19 +349,21 @@ body {
     top: 10px;
     left: 10px;
 
-    width: 112.40625px;
-    height: 44px;
-
-    padding: 12px 20.41px 12px 20px;
-    border-radius: 48px;
+    width: 72px;
+    height: 20px;
 
     background: #fff;
     color: #000;
 
-    font-size: 12px;
+    border-radius: 48px;
+
+    font-size: 10px;
     font-weight: 500;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    z-index: 10;
+    opacity: 1;
 }
