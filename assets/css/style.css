@@ -339,6 +339,11 @@ body {
 .insight-card {
     text-align: center;
 }
+.img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
 .badge-top {
     position: absolute;
     top: 10px;
