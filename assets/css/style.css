@@ -347,6 +347,7 @@ body {
 .img-wrapper {
   position: relative;
   width: 100%;
+  padding: 0;
 }
 
 /* TAG ON IMAGE */
@@ -377,6 +378,7 @@ body {
 .img-wrapper img {
   width: 100%;
   height: 180px;
+  padding: 0%;
   object-fit: cover;
   display: block;
 
