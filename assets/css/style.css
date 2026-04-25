@@ -474,9 +474,24 @@ body {
   width: 188px;
 }
 
-.logo {
-  font-size: 22px;
-  margin-bottom: 25px;
+/* line under logo */
+.logo-line{
+  border:0;
+  height:2px;
+  background:#FFC247;
+  width:60px;
+  margin:10px 0 20px;
+}
+
+.footer-middle ul{
+  list-style:none;
+  padding:0;
+}
+
+.footer-middle ul li{
+  margin-bottom:15px;
+  font-size:14px;
+  color:#FFC247; /* bullet style color */
 }
 
 .footer-middle ul {
@@ -497,8 +512,8 @@ body {
 
 /* YELLOW BOX */
 .newsletter-box {
-  width: 315.97px;
-  height: 104px;
+  width: 232.39;
+  height: 436;
   background: #f7b84b;
   border-radius: 12px;
   padding: 12px;
