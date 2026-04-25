@@ -291,7 +291,7 @@ body {
   width: 320px;
   height: 534px;
   border-radius: 48px;
-  padding: 20px 20px 54px;
+  padding: 0;
   background: #fff;
   display: flex;
   flex-direction: column;
