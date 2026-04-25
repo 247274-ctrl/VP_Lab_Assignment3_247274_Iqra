@@ -139,3 +139,43 @@ body {
     height: 100px;   /* size bara */
     margin: 0 15px; /* spacing */
 }
+.freedom-wrapper {
+    background: #dff3ff; /* SKY BLUE BACKGROUND */
+}
+
+.freedom-card {
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.feature-box {
+    text-align: center;
+    padding: 15px;
+}
+
+.feature-box img {
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.feature-box h5 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #666;
+}
+.freedom-card {
+    background: #fff;
+    padding: 70px 50px;   /* ↑ height increase */
+    border-radius: 20px;
+
+    /* IMPORTANT: vertical feel */
+    min-height: 750px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
