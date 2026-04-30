@@ -212,7 +212,7 @@ body {
     margin-bottom: 25px;
 }
 .story-yellow-box {
-    background: #f5b400;   /* yellow */
+  background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);  /* yellow */
     padding: 40px;
     border-radius: 16px;
     
@@ -245,7 +245,7 @@ body {
     border: none;
 }
 .certo-cta-section {
-    background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
+       background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
 }
 
 /* blur overlay effect */
