@@ -1,116 +1,167 @@
+
+/* ================================
+   DESIGN VARIABLES (MANDATORY)
+   ================================ */
+:root {
+    --primary: #4335DE;
+    --dark-blue: #02033B;
+    --text-light: #5f6b7a;
+    --yellow: #FFC247;
+    --bg-light: #E7EFFA;
+    --font-main: Arial, sans-serif;
+}
 /* GLOBAL */
 body {
     font-family: Arial, sans-serif;
     color: #111;
 }
+/* nav bar start */
+.navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 25px;
+        color:#02033B;
+
+    text-decoration: none;
+}
+
 
 /* NAV BUTTON */
 .btn-main {
-    background: #f5b400;
+background-color: #4335DE;
     border-radius: 25px;
     padding: 8px 18px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
-
+/* nav bar end */
 /* HERO */
 .hero-section {
-    padding: 80px 0;
- background: #dff3ff;
+    padding: 0 0 60px 0;
+background: linear-gradient(0deg, #E7EFFA 0%, rgba(255, 255, 255, 0) 100%);
+
 }
 
+/* TEXT */
 .hero-title {
-    font-size: 48px;
-    font-weight: 700;
+
+    color: #0b0f3c;
+     width: 603.5px;
+     height:150px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; /* vertical alignment */
+  
+   
 }
 
 .hero-text {
-    margin: 20px 0;
-    color: #666;
+
+
+    color: #5f6b7a;
+      color: #0b0f3c;
+     width: 603.5px;
+   margin-top: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; /* vertical alignment */
+     /* spacing between items */
+
+    padding: 20px 60px;
+    
 }
 
-/* HERO IMAGES */
+/* IMAGE SIDE */
+
+.hero-img-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+
+    border-top: 20px  solid #2F6BFF;
+    
+    border-left: 20px solid #2F6BFF;
+   
+}
+
+/* Boy Image */
 .hero-boy {
-    max-width: 300px;
+       width: 720px;
+    height: 720px;
+    max-width: 100%;
+    display: block;
+    top: 94.19px
 }
 
 .hero-phone {
     position: absolute;
-    right: 20px;
-    bottom: 0;
-    max-width: 200px;
+
+        width: 241.5px;
+    height: 461.25px;
+
+    top: 50px;
+    left: 30%;   /* 🔥 PERFECT: thora left, but zyada nahi */
+
+    transform: translateX(-30%);
+    z-index: 2;
 }
 
 /* BUTTONS */
 .btn-yellow {
     background: #f5b400;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 12px 24px;
+    color: #000;
 }
-
+.bi-arrow-right {
+    margin-left: 8px;
+}
 .btn-outline-dark {
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 12px 24px;
 }
-
-/* SECTION TITLE */
-.section-title {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-/* LOGOS */
-.logo {
-    height: 30px;
-    opacity: 0.7;
-}
-
-/* FEATURE BOX */
-.feature-box {
-    background: #fff;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
-
-
-.hero-img-wrapper {
-    border: 5px solid #5a6bff;
-    border-radius: 20px;
-    display: inline-block;
-    padding: 10px;
-}
-
-.hero-boy {
-    max-width: 280px;
-}
-
-.hero-phone {
-    position: absolute;
-    top: 20%;
-    right: 10%;
-    width: 160px;
-}
+/* hero end */
+/* review start */
 .review-card {
     background: #fff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
-
 .stars {
     color: gold;
 }
 .reviews-section {
-    background-color: #f5b400; /* same yellow */
-    padding: 60px 0;
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+    padding: 90px 0;
+    
 }
-.reviews-section h4,
+.reviews-section h4{
+     width: 609px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; /* vertical alignment */
+
+
+    padding: 20px 60px; /* left/right spacing */
+     margin-bottom: 90px
+}
 .reviews-section p,
 .reviews-section strong {
     color: #000;
+  
 }
 .review-card {
+  height:300px;
+  width: 305.98px;
     background: #fff;
+    
 }
 .featured-wrapper {
     display: flex;
@@ -120,7 +171,8 @@ body {
 }
 
 .featured-text {
-    color: #1a3cff;
+    color:  #02033B;
+
     font-weight: 600;
     white-space: nowrap;
 }
@@ -128,15 +180,18 @@ body {
 .featured-logos {
     display: flex;
     justify-content: space-between;
-    flex: 1; /* ye important hai */
+    flex: 1; 
 }
 
 .featured-logos img {
-    height: 100px;   /* size bara */
+    height: 100px;   
     margin: 0 15px; /* spacing */
 }
+/* review box end */
+/* cetro start */
 .freedom-wrapper {
     background: #dff3ff; /* SKY BLUE BACKGROUND */
+
 }
 
 .freedom-card {
@@ -154,6 +209,7 @@ body {
 .feature-box img {
     height: 55px;
     margin-bottom: 10px;
+      
 }
 
 .feature-box h5 {
@@ -165,6 +221,46 @@ body {
     font-size: 14px;
     color: #666;
 }
+section .col-lg-6 h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+   
+
+}
+
+section .col-lg-6 p {
+    margin-bottom: 35px;
+}
+
+section .col-lg-6 .btn {
+   
+    width: 268.656px;
+    height: 54.5px;
+
+    padding-top: 16px;
+    padding-right: 52px;
+    padding-bottom: 15.5px;
+    padding-left: 20px;
+
+    border-radius: 42px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-box {
+    width: 588px;
+    height: 496px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center; /* vertical alignment */
+    gap: 20px; /* spacing between items */
+
+    padding: 20px 60px; /* left/right spacing */
+}
+/* cetro end */
 .freedom-card {
     background: #fff;
 
@@ -219,6 +315,7 @@ body {
       width: 460px !important;
     height: 296px !important;
 }
+/* freedom box end */
 
 /* HELP CENTER TEXT STYLE (NO BOX) */
 .help-text {
@@ -244,13 +341,14 @@ body {
     display: inline-block;
     border: none;
 }
+/* help center end */
 .certo-cta-section {
-       background: linear-gradient(180deg, #F3F8FF 0%, #E7EFFA 100%);
+       background:  linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);
 }
 
 /* blur overlay effect */
 .certo-box {
-    background: transparent;   /* important */
+    background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%);  /* important */
     backdrop-filter: none;     /* remove blur glass effect */
     padding: 0;                /* remove extra spacing */
     border-radius: 0;          /* remove rounded card look */
@@ -431,6 +529,8 @@ body {
 
   cursor: pointer;
 }
+/* insight end */
+/* footer */
 .footer {
   background: #0b0f2a;
   color: #fff;
@@ -575,10 +675,11 @@ body {
   margin-bottom:8px;
 }
 .copyright-small{
-  font-size:9px;
+  font-size:  10px;
   font-weight:400;
-  opacity:0.6;
+  opacity:1;
   line-height:1.4;
+  color: #fff;
 }
 
 .credit{
@@ -597,3 +698,40 @@ body {
 }
 
 .legal-gap{height:10px;}
+.underline {
+    display: inline-block;
+    color: rgba(255,255,255,0.6);
+    font-size: 9px;
+    font-weight: 400;
+
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 2px;
+    margin-right: 10px;
+}
+.footer-left p,
+.footer-left .underline {
+    color: rgba(255,255,255,0.6);
+    font-size: 9px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.6);  /* same as Privacy */
+     opacity:1;
+   
+}
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+    font-weight: 900;
+    color: #02033B;
+}
+.btn-yellow,
+.btn-outline-dark,
+.btn-main,
+.btn-purple,
+.btn-warning,
+.btn-outline-light {
+    color: #02033B !important;
+    font-weight: 700;
+}
