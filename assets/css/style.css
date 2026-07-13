@@ -735,3 +735,251 @@ section h6 {
     color: #02033B !important;
     font-weight: 700;
 }
+
+
+
+
+
+
+
+/* =====================================
+   RESPONSIVE CSS
+   Paste at the END of style.css
+===================================== */
+
+/* Tablet */
+@media (max-width:992px){
+
+.hero-title,
+.hero-text{
+    width:100%;
+    height:auto;
+    padding:10px;
+    text-align:center;
+}
+
+.hero-img-wrapper{
+    margin-top:40px;
+}
+
+.hero-boy{
+    width:100%;
+    height:auto;
+}
+
+.hero-phone{
+    position:absolute;
+    width:180px;
+    height:auto;
+    top:30px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.reviews-section h4{
+    width:100%;
+    height:auto;
+    padding:0;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.review-card{
+    width:100%;
+    height:auto;
+}
+
+.featured-wrapper{
+    flex-direction:column;
+    gap:20px;
+    text-align:center;
+}
+
+.featured-logos{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.featured-logos img{
+    height:60px;
+}
+
+.text-box{
+    width:100%;
+    height:auto;
+    padding:20px;
+    text-align:center;
+}
+
+.freedom-card{
+    width:100%;
+}
+
+.story-yellow-box{
+    width:100% !important;
+    height:auto !important;
+}
+
+.help-text{
+    text-align:center;
+}
+
+.insight-card{
+    width:100%;
+    height:auto;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right{
+    width:100%;
+    text-align:center;
+}
+
+.white-box{
+    width:100%;
+}
+
+.input-box{
+    flex-direction:column;
+}
+
+.input-box button{
+    width:100%;
+}
+
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+.navbar-brand{
+    font-size:22px;
+}
+
+.hero-section{
+    padding:40px 0;
+}
+
+.hero-title{
+    font-size:34px;
+    line-height:1.3;
+}
+
+.hero-text{
+    font-size:16px;
+}
+
+.hero-phone{
+    width:140px;
+    top:20px;
+}
+
+.btn-yellow,
+.btn-outline-dark,
+.btn-main{
+    width:100%;
+    margin-bottom:10px;
+}
+
+section .col-lg-6 .btn{
+    width:100%;
+}
+
+.freedom-card{
+    padding:25px;
+}
+
+.feature-box{
+    padding:10px;
+}
+
+.story-yellow-box{
+    padding:25px;
+}
+
+.certo-box .main-text{
+    font-size:28px;
+}
+
+.insight-card h5{
+    width:100%;
+    height:auto;
+}
+
+.insight-card p{
+    padding:0 15px;
+}
+
+.footer{
+    text-align:center;
+}
+
+.socials{
+    justify-content:center;
+}
+
+.footer-middle ul{
+    padding-left:0;
+}
+
+.newsletter-box{
+    width:100%;
+}
+
+.white-box{
+    height:80px;
+}
+
+}
+
+/* Small Mobile */
+@media (max-width:576px){
+
+.hero-title{
+    font-size:28px;
+}
+
+.hero-text{
+    font-size:15px;
+}
+
+.hero-phone{
+    width:120px;
+}
+
+.featured-logos img{
+    height:45px;
+}
+
+.review-card{
+    padding:15px;
+}
+
+.story-yellow-box{
+    padding:20px;
+}
+
+.certo-box .main-text{
+    font-size:24px;
+}
+
+.certo-box .sub-text{
+    font-size:16px;
+}
+
+.view-all-btn{
+    width:100%;
+}
+
+.newsletter-box{
+    padding:20px;
+}
+
+.input-box input,
+.input-box button{
+    width:100%;
+}
+
+}
